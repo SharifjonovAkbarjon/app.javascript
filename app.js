@@ -98,3 +98,110 @@
 //     }
 //     console.log(son([4, -1, 4, 6, 1, 2, 5, -6, -4]));
 //   }
+
+
+// {
+//     // 2 masala
+//     function son(array) {
+//       let sum = 0;
+//       for (let i = 0; i <= array; i += 2) {
+//         sum = sum + i;
+//       }
+//       return `juft sonlar yigindisi shunga teng ${sum}`;
+//     }
+//     console.log(son(45));
+//   }
+//   {
+//     function son(array) {
+//       let sum = 0;
+//       let i = 0;
+//       while (i <= array) {
+//         sum = sum + i;
+//         i += 2;
+//       }
+//       return `juft sonlar yigindisi shunga teng ${sum}`;
+//     }
+//     console.log(son(56));
+//   }
+//   {
+//     function son(array) {
+//       let sum = 0;
+//       let i = 0;
+//       do {
+//         sum = sum + i;
+//         i += 2;
+//       } while (i <= array);
+//       return `juft sonlar yigindisi shunga teng ${sum}`;
+//     }
+//     console.log(son(22));
+//   }
+  
+//   {
+//     // 3 masala
+//     function son(a, b) {
+//       let sum = 0;
+//       for (let i = a; i <= b; i++) {
+//         sum = sum + i;
+//       }
+//       return sum;
+//     }
+//     console.log(son(5, 20));
+//   }
+//   {
+//     // 3 masal while 
+//     function son(a, b) {
+//       let i = a;
+//       let sum = 0;
+//       while (i <= b) {
+//         sum = sum + i;
+//         i++;
+//       }
+//       return sum;
+//     }
+//     console.log(son(5, 20));
+//   }
+//   {
+//     // 3 masala do while
+//     function son(a, b) {
+//       let sum = 0;
+//       let i = a;
+//       do {
+//         sum = sum + i;
+//         i++;
+//       } while (i <= b);
+//       return sum;
+//     }
+//     console.log(son(5, 20));
+//   }
+  
+//   {
+//     // 4 masala
+//     function son(n) {
+//       for (let i = n; i >= 0; i -= 2) {
+//         console.log(i);
+//       }
+//     }
+//     console.log(son(50));
+//   }
+//   {
+//     // 4 masalani while 
+//     function son(n) {
+//       let i = n;
+//       while (i >= 0) {
+//         console.log(i);
+//         i -= 2;
+//       }
+//     }
+//     console.log(son(69));
+//   }
+//   {
+//     // 4 masala do while
+//     function son(n) {
+//       let i = n;
+//       do {
+//         console.log(i);
+//         i -= 2;
+//       } while (i >= 0);
+//     }
+//     console.log(son(34));
+//   }
